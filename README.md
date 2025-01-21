@@ -29,4 +29,3 @@ This file reads the actual data from act_data.data and calculates the model resi
 Stable_pistar:
 The files follow the same structure as in Main_Files. The only difference is that a stable long run inflation is imposed on the model. In Table 2 we use 5 different Debt Implied Inflations (1%, 5%, 10%, 15%, 20%). To replicate each of these replace PISTAR in SUBROUTINE FTPL with the required value. 
 
-![image](https://github.com/user-attachments/assets/35efb78d-2599-4749-ba3a-b9e5d475c95e)
