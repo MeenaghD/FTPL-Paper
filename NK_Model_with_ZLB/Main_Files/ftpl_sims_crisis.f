@@ -710,7 +710,7 @@ C=======================================================================
 
 
 
-      CALL SWUS
+      CALL FTPL
 
 
 
@@ -11391,7 +11391,7 @@ c      WRITE(8,7500) ( ER(KVAR,IY),IY=1,KAG )
 
       END    
 
-      SUBROUTINE SWUS                                                     
+      SUBROUTINE FTPL                                                     
       IMPLICIT DOUBLE PRECISION (A-H,O-Z)                               
       CHARACTER*8   NAME, IXOG                                          
       LOGICAL       LFIX2                                               
