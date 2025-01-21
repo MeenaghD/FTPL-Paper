@@ -31,7 +31,7 @@ rm -f lags_exog
 cp nerror qerror
 
 # 2. Run the base run with these weights to get the Type II residuals.
-#    a. Use the data to get the switch dates of the ZLB
+#    a. Use the data to get the ftplitch dates of the ZLB
 #    b. Therefore, there will be just one set of Type II residuals.
 echo 2 > nlag
 cp start_lags_endog lags_endog
@@ -46,7 +46,7 @@ for i in {3..234}
                 ./base_NKweights.exe
 		cp new_coef.data coef.data
                 rm -f allout.out
-                ./sw_base_nocrisis.exe < swus_base.data > baserun.out
+                ./ftpl_base_nocrisis.exe < ftpl_base.data > baserun.out
         done
 
 cp allout.out base.out
