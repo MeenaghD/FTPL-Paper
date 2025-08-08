@@ -3,7 +3,9 @@ This repository contains the model files for the paper “Does the Fiscal Theory
 The folders contain the executables, which have been compiled to work on Windows. 
 
 There are 2 folders
+
 Main_Files: This contains the files needed to run the NK model with the ZLB
+
 Stable_pistar: This contains the files needed stable path results listed in Table 2.
 
 Main_Files:
