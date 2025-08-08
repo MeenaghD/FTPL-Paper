@@ -1,7 +1,11 @@
 # FTPL-Paper
 This repository contains the model files for the paper “Does the Fiscal Theory of the Price Level Explain US Postwar Behaviour” by Vo Phuong Mai Le, David Meenagh, Patrick Minford and Michael Wickens. A working paper version can be found at http://carbsecon.com/wp/E2024_17.pdf
-The folders contain the executables, which have been compiled to work on Windows. 
 
+The folder FTPL_Permanent_Regime contains the code for the models when the FTPL is considered a permanent regime. The folders contain the executables, which have been compiled to work on Windows. 
+
+The folder FTPL_Temporary_Regime contains the Matlab codes using Dynare for the models when the FTPL is considered a temporary regime.
+
+**FTPL_Permanent_Regime**
 There are 2 folders
 1. Main_Files: This contains the files needed to run the NK model with the ZLB
 2. Stable_pistar: This contains the files needed stable path results
