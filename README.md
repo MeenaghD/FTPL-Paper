@@ -5,7 +5,7 @@ The folder FTPL_Permanent_Regime contains the code for the models when the FTPL 
 
 The folder FTPL_Temporary_Regime contains the Matlab codes using Dynare for the models when the FTPL is considered a temporary regime.
 
-**FTPL_Permanent_Regime**
+**FTPL_Permanent_Regime** 
 There are 2 folders
 1. Main_Files: This contains the files needed to run the NK model with the ZLB
 2. Stable_pistar: This contains the files needed stable path results
